@@ -6,15 +6,25 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-button{
-    border: 1px solid #f9faf8;
-    border-radius: 16px;
-    color: #E5E7EB;
+.top-button{
+    display: flex;
+    padding: 15px 50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
     height: 30px;
     width: 20%;
+}
+
+#font-but{
+    display: flex;
     text-align: center;
     text-wrap: nowrap;
-    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
 
 .top-page{
@@ -22,7 +32,21 @@ button{
     flex-direction: column;
     background-color: #1F2937;
     padding: 0 100px;
-    
+    align-items: center;
+
+}
+
+.flex-content{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-top{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
 }
 
 ul{
@@ -136,8 +160,90 @@ ul{
     max-width: 900px;
 }
 
+.quote{
+    font-style: italic;
+    font-weight: lighter;
+    color: #3b3b3b;
+    display: flex;
+    font-size: 30px;
+}
+
 .credit{
     display: flex;
     justify-content: flex-end;
     font-size: 24px;
+}
+
+.call-to{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-content{
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px 0;
+    border-radius: 0.5em;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.call-to-inner{
+    display: flex;
+    margin: 50px;
+    gap: 100px;
+}
+
+.call-to-left{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    display: flex;
+    gap: 5px;
+}
+
+.call-to-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-button{
+    border-color: white;
+    border-width: 2px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.call-to-head{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-sub{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#info{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+#head-text{
+    color: #F9FAF8;
+    font-size: 40px;
+}
+
+#sub-text{
+    font-size: 18px;
+    color: #E5E7EB;
 }
