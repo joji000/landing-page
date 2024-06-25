@@ -1,0 +1,1 @@
+use the knowlegde about flex to do a landing page
